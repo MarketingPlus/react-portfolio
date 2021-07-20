@@ -4,7 +4,7 @@ import './style.css';
 const Footer = () => {
     return (
         <footer>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mengmei-tu/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/benjamin-wilson-a72b69204/">
                 <i class="fab fa-linkedin"></i>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/MarketingPlus">
