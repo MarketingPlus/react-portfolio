@@ -56,4 +56,28 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div >
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100 pb-5">
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/tech-blog.png`} className="card-img-top border-bottom"
+                            alt="Screenshot of Tech Blog" />
+                        <div className="card-body mb-5 pl-0">
+                            <h3>CMS Tech Blog</h3>
+                            <p className="card-text">
+                            A CMS style blog site which allows users to login, create an account, post comments and blog posts.
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: HTML, CSS, NPM, JavaScript, jQuery, Sequelize, Express
+                                </small>
+                            </p>
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="https://mighty-gorge-97116.herokuapp.com/" className="btn mr-2" target="_blank" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="https://github.com/MarketingPlus/tech-blog" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
