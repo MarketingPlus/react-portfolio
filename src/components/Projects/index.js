@@ -81,3 +81,86 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/day.jpg`} className="card-img-top border-bottom"
+                                alt="Screenshot of Day Scheduler" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>Day Scheduler</h3>
+                            <p className="card-text">
+                            Daily Planner which displays the current date and the time
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: JavaScript, CSS, Mobile responsive
+                                </small>
+                            </p>
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="https://marketingplus.github.io/day-scheduler/" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="https://github.com/MarketingPlus/day-scheduler" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/Weather.png`} className="card-img-top border-bottom"
+                                alt="Screenshot of Weather Dashboard" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>Weather Dashboard</h3>
+                            <p className="card-text">
+                                Weather app that provides current and future weather forecasts in cities.
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: HTML, CSS, JavaScript, jQuery, API, Bootstrap, Mobile
+                                    responsive
+                            </small>
+                            </p>
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="https://marketingplus.github.io/weather-dashboard/" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="https://github.com/MarketingPlus/weather-dashboard" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/zafino.jpg`} className="card-img-top border-bottom"
+                                alt="Screenshot of Zafino" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>Zafino Jewellery</h3>
+                            <p className="card-text">
+                                A custom developed shopify store
+                        </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: HTML, CSS, Javascript, Jquery, Shopify Liqud
+                            </small>
+                            </p>
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="https://zafino.com.au" target="_blank" className="btn" rel="noreferrer">
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Projects;
