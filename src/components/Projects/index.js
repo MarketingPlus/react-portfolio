@@ -111,7 +111,7 @@ const Projects = () => {
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100">
                         <div className="imageBox">
-                            <img src={`${process.env.PUBLIC_URL}/assets/images/Weather.png`} className="card-img-top border-bottom"
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/Weather.jpg`} className="card-img-top border-bottom"
                                 alt="Screenshot of Weather Dashboard" />
                         </div>
                         <div className="card-body mb-5 pl-0">
@@ -152,8 +152,8 @@ const Projects = () => {
                             </small>
                             </p>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
-                                <a href="https://zafino.com.au" target="_blank" className="btn" rel="noreferrer">
-                                    </a>
+                            <a href="https://zafino.com.au" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
                             </div>
                         </div>
                     </div>
